@@ -1,0 +1,48 @@
+.header-container {
+  height: 88px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #263868;
+  padding-left: 40px;
+  padding-right: 30px;
+}
+.nav-link {
+  text-decoration: none;
+  color: transparent;
+}
+.nav-logo {
+  width: 98px;
+  height: 55.67px;
+}
+.logout-button {
+  width: Hug (86px) px;
+  height: Hug (40px) px;
+  padding: 12px 24px 12px 24px;
+  border-radius: 8px;
+  border: 2px solid #f1f5f9;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  color: #f1f5f9;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+@media (max-width: 500px) {
+  .header-container {
+    height: 65px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .nav-logo {
+    width: 75px;
+    height: 41px;
+  }
+  .logout-button {
+    width: Hug (70px) px;
+    height: Hug (32px) px;
+    padding: 8px 16px 8px 16px;
+  }
+}

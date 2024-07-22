@@ -1,0 +1,53 @@
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  margin-top: 20px;
+}
+.failure-view-image {
+  width: 50%;
+}
+.failure-view-heading {
+  color: #334155;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.failure-view-description {
+  color: #64748b;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.failure-view-button {
+  background: #164687;
+  color: white;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 700;
+  border-width: 0px;
+  cursor: pointer;
+  width: Fixed (93px) px;
+  height: Fixed (40px) px;
+  padding: 8px 32px 8px 32px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 765px) {
+  .failure-view-image {
+    width: 100%;
+  }
+  .failure-view-heading {
+    font-size: 20px;
+  }
+  .failure-view-description {
+    font-size: 12px;
+  }
+}
